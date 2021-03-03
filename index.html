@@ -1,0 +1,33 @@
+<html>
+    <p>
+        How many member in my family ? 
+        <h4 id="declaration_of_arrays"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        Do I have my own brother?
+        <h4 id="access_first_element"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+        What are my family members names? 
+        <h4 id="display_alphabets_array"> 
+        </h4>
+    </p>
+ <script>
+
+    //How many family members do I have? the id to be refer for innerHTML is declaration_of_arrays
+var colors=["4"];
+console.log(colors);
+document.getElementById("declaration_of_arrays").innerHTML=colors
+    //Do I have my own brother? the id to be refer for innerHTML is access_first_element
+console.log(colors[0]);
+document.getElementById("access_first_element").innerHTML=colors[0];
+    //What are my family's names ? the id to be refer for innerHTML is display_alphabets_array
+var letters=["Deepak", "Lavanya","Niha", "Vomi"]
+console.log(letters)
+document.getElementById("display_alphabets_array").innerHTML=letters
+</script>
+</html>
